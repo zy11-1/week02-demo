@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<body>
+    <h2>About Page</h2>
+    <p>Author: <span th:text="${author}"></span></p>
+    <p>Course Code: <span th:text="${course}"></span></p>
+    <a th:href="@{/}">Back to Home</a>
+</body>
+</html>
